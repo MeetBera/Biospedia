@@ -334,7 +334,54 @@ export const taxonomy = [
             species: "7",
             image: "https://res.cloudinary.com/davy75aew/image/upload/v1747932596/Hominidae_prvzal.png",
             description: "Great apes including humans, chimpanzees, gorillas, and orangutans.",
-            speciesList: [{}]
+            speciesList: [
+              {
+                id: "homo-sapiens",
+                name: "Human",
+                scientificName: "Homo sapiens",
+                size: "1.5–1.8 meters tall",
+                habitat: "Various (global)",
+                description: "The only extant human species, known for advanced cognitive abilities and societal development.",
+                image: "https://res.cloudinary.com/davy75aew/image/upload/v1748091189/Gemini_Generated_Image_54bhh354bhh354bh_dtkscn.jpg"
+              },
+              {
+                id: "pan-troglodytes",
+                name: "Common Chimpanzee",
+                scientificName: "Pan troglodytes",
+                size: "0.9–1.2 meters tall",
+                habitat: "Tropical forests and savannas of West and Central Africa",
+                description: "Our closest living relatives, known for their intelligence, tool use, and social structures.",
+                image: "https://res.cloudinary.com/davy75aew/image/upload/v1748091208/Common_Chimpanzee_ihkbls.jpg"
+              },
+              {
+                id: "pan-paniscus",
+                name: "Bonobo",
+                scientificName: "Pan paniscus",
+                size: "0.7–1 meter tall",
+                habitat: "Rainforests of the Democratic Republic of the Congo",
+                description: "Peaceful and matriarchal primates closely related to chimpanzees, known for cooperative behaviors.",
+                image: "https://res.cloudinary.com/davy75aew/image/upload/v1748091178/Bonobo_pndxiu.jpg"
+              },
+              {
+                id: "gorilla-gorilla",
+                name: "Western Gorilla",
+                scientificName: "Gorilla gorilla",
+                size: "1.25–1.8 meters tall",
+                habitat: "Tropical rainforests of Central Africa",
+                description: "The largest living primates, primarily herbivorous and known for their strength and gentle nature.",
+                image: "https://res.cloudinary.com/davy75aew/image/upload/v1748091209/Western_Gorilla_vqqs58.jpg"
+              },
+              {
+                id: "pongo-pygmaeus",
+                name: "Bornean Orangutan",
+                scientificName: "Pongo pygmaeus",
+                size: "1.2–1.5 meters tall",
+                habitat: "Tropical rainforests of Borneo",
+                description: "Highly intelligent great apes, critically endangered due to habitat destruction and fragmentation.",
+                image: "https://res.cloudinary.com/davy75aew/image/upload/v1748091188/Bornean_Orangutan_kngrx4.jpg"
+              }
+            ]
+
           },
           {
             name: "Cervidae",
